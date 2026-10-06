@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LOGIN MAHASISWA</title>
+  </head>
+  <body>
+    <h1>LOGIN MAHASISWA</h1>
+
+    <form> 
+      <label>Email</label><br>
+      <input type="EMAIL" NAME="EMAIL"
+      required>
+      <br><br>
+
+      <label>Password</label><br>
+      <input type="password" nama="password" required>
+      <br><br>
+
+      <input type="Submit"
+      value="LOGIN">
+      <input type="RESET"
+      value="RESET">
+       </form>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Biodata Mahasiswa</title>
+</head>
+
+<body>
+
+    <h1>BIODATA MAHASISWA</h1>
+
+    <form>
+
+        <label>NIM</label><br>
+        <input type="text" name="nim">
+        <br><br>
+
+        <label>Nama Lengkap</label><br>
+        <input type="text" name="nama" required>
+        <br><br>
+
+        <label>Email</label><br>
+        <input type="email" name="email">
+        <br><br>
+
+        <label>Tanggal Lahir</label><br>
+        <input type="date" name="tanggal_lahir">
+        <br><br>
+
+        <label>Jenis Kelamin</label><br>
+        <input type="radio" name="jenis_kelamin" value="Laki-laki">
+        Laki-laki
+
+        <input type="radio" name="jenis_kelamin" value="Perempuan">
+        Perempuan
+
+        <br><br>
+
+        <input type="submit" value="SIMPAN">
+
+    </form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minat Teknologi Mahasiswa</title>
+</head>
+
+<body>
+
+    <h1>MINAT TEKNOLOGI MAHASISWA</h1>
+
+    <form>
+
+        <label>Nama</label><br>
+        <input type="text" name="nama">
+        <br><br>
+
+        <label>Pilih Minat:</label>
+        <br><br>
+
+        <input type="checkbox" name="minat" value="Web Development">
+        Web Development
+        <br>
+
+        <input type="checkbox" name="minat" value="Artificial Intelligence">
+        Artificial Intelligence
+        <br>
+
+        <input type="checkbox" name="minat" value="Mobile Development">
+        Mobile Development
+        <br>
+
+        <input type="checkbox" name="minat" value="Game Development">
+        Game Development
+        <br>
+
+        <input type="checkbox" name="minat" value="Cyber Security">
+        Cyber Security
+
+        <br><br>
+
+        <input type="submit" value="SIMPAN">
+
+    </form>
+
+</body>
+</html>
